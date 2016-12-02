@@ -37,7 +37,7 @@ framework que permite usar las instancias json como respuesta de consultas simpl
      $bd->consulta("tabla");
 
 #actualizar
-    include("sql_json.php");
+     include("sql_json.php");
      $bd->conectar("localhost","root","","bdpd");
-    //$bd->buscar("materias","nombre","hol");
-    //$bd->actualizar("productos","nombre","1","cocacola");
+     //tabla: tabla que se va a consultar,columna: columana que se va a editar, id: id de registro a editar, infomacion: infomacion que      va a sustituir
+     $bd->actualizar("tabla","columna","id","informacion");
