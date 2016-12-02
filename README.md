@@ -1,6 +1,8 @@
 # sql_json v1 
 
-#Nacimiento Un bello dia libre 
+#Nacimiento 
+
+Un bello dia libre de escuela libre de todo 01/12/2016
 
 framework que permite usar las instancias json como respuesta de consultas simple y facil 
 
